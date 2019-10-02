@@ -4,6 +4,14 @@ html {
   font-size: ;
 }
 
+body {
+  height: 100%;
+background: linear-gradient(0.25turn, #d60000, #00d, #00d636);
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
 @media screen and (min-width: 480px) {
 
 label {
@@ -11,7 +19,6 @@ label {
   font-family: ;
   font-size: ;
 }
-
 }
 
 @media screen
