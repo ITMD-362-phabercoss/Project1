@@ -1,4 +1,4 @@
-
+/* Attempted to use Golden section ratio */
 body {
 line-height: 1.625em;
 font-size: 1.063em;
@@ -30,6 +30,25 @@ top: 10px;
 }
 
 @media screen and (min-width: 768px) {
+h1 {
+  position: relative;
+}
+#firstName {
+  position: relative;
+  padding-bottom: 15px;
+}
+#lastName {
+position: relative;
+padding-bottom: 15px;
+}
+#email {
+  position: relative;
+  padding-bottom: 15px;
+}
+#phone {
+  position: relative;
+  padding-bottom: 15px;
+}
 #submit {
   bottom: 300px;
 }
