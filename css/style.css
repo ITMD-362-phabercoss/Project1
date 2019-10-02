@@ -1,43 +1,39 @@
-html {
-  line-height: 1.625em;
-  font-family: 'Heebo', sans-serif;
-  font-size: 1.063em;
-  padding: 27.625px;
-  color: white;
-}
 
 body {
+line-height: 1.625em;
+font-size: 1.063em;
+padding: 27.625px;
+color: white;
 height: 100%;
 background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
-  text-align: center;
+text-align: center;
+font-family: 'Heebo', sans-serif;
 }
-img {
-  max-width: 100%;
-}
-@media screen and (min-width: 480px) {
-img {
 
+img {
+bottom: 500px;
+max-width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+
 label {
   line-height: 1.625em;
   font-family: 'Heebo', sans-serif;
   font-size: 1.063em;
 }
+img {
+position: relative;
+top: 10px;
+}
 
 }
 
-@media screen and (min-width: 992px) {
-#firstName {
-
+@media screen and (min-width: 768px) {
+#submit {
+  bottom: 300px;
 }
-#lastName {
-
-}
-#email {
-
-}
-#phone {
-
-}
-
+img {
+  position: relative;
+  top: 10px;
 }
