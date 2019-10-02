@@ -1,13 +1,13 @@
 html {
   line-height: 1.625em;
-  font-family: "Gill Sans";
+  font-family: 'Heebo', sans-serif;
   font-size: 1.063em;
   padding: 27.625px;
   color: white;
 }
 
 body {
-  height: 100%;
+height: 100%;
 background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
   text-align: center;
 }
@@ -15,14 +15,29 @@ img {
   max-width: 100%;
 }
 @media screen and (min-width: 480px) {
+img {
 
+}
 label {
   line-height: 1.625em;
-  font-family: "Gill Sans";
-  font-size: 1.618em;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.063em;
 }
+
 }
 
 @media screen and (min-width: 992px) {
+#firstName {
+
+}
+#lastName {
+
+}
+#email {
+
+}
+#phone {
+
+}
 
 }
