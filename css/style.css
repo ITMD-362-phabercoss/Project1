@@ -1,6 +1,6 @@
 html {
   line-height: 1.625em;
-  font-family: ;
+  font-family: "Gill Sans";
   font-size: 1.063em;
   padding: 27.625px;
   color: white;
@@ -8,7 +8,7 @@ html {
 
 body {
   height: 100%;
-background: linear-gradient(0.25turn, #d60000, #00d, #00d636);
+background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
   text-align: center;
 }
 img {
@@ -18,9 +18,11 @@ img {
 
 label {
   line-height: 1.625em;
-  font-family: ;
-  font-size: ;
+  font-family: "Gill Sans";
+  font-size: 1.618em;
 }
 }
 
-@media screen
+@media screen and (min-width: 992px) {
+
+}
