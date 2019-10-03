@@ -1,7 +1,6 @@
 /* Attempted to use Golden section ratio */
 body {
 line-height: 1.625em;
-font-size: 1.063em;
 padding: 27.625px;
 color: white;
 height: 100%;
@@ -30,29 +29,39 @@ top: 10px;
 }
 
 @media screen and (min-width: 768px) {
-h1 {
+#title {
   position: relative;
+  font-size: 2.618em;
 }
 #firstName {
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.618em;
 }
 #lastName {
 position: relative;
 padding-bottom: 15px;
+font-size: 1.618em;
 }
 #email {
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.618em;
 }
 #phone {
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.618em;
 }
 #submit {
   bottom: 300px;
+  font-size: 1.618em;
 }
 img {
   position: relative;
-  top: 10px;
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  max-height: 600px;
+  top: 15px;
 }
