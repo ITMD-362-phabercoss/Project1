@@ -21,6 +21,25 @@ label {
   font-family: 'Heebo', sans-serif;
   font-size: 1.063em;
 }
+#firstName {
+position: relative;
+padding-bottom: 15px;
+}
+
+#lastName {
+  position: relative;
+padding-bottom: 15px;
+}
+#email {
+  position: relative;
+padding-bottom: 15px;
+}
+
+#phone {
+  position: relative;
+padding-bottom: 15px;
+
+}
 img {
 position: relative;
 top: 10px;
