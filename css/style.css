@@ -125,9 +125,11 @@ img {
   font-family: 'Playfair Display', serif;
 }
 img {
-  position: relative;
-  height: auto;
-  width: auto;
-  max-width: 570px;
-  max-height: 570px;
-  top: 15px; }
+position: relative;
+height: auto;
+width: auto;
+max-width: 570px;
+max-height: 570px;
+top: 15px;
+}
+}
