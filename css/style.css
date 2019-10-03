@@ -2,7 +2,7 @@
 body {
   line-height: 1.625em;
   padding: 27.625px;
-  /*color: white; */
+  color: white;
   height: 100%;
   background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
   text-align: center;
@@ -21,40 +21,53 @@ label {
   font-size: 1.063em;
 }
 #title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
   padding-bottom: 15px;
-  font-size: 1.7em;
+  font-size: 3em;
   color: #00008B;
 }
 #purpose {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.2em;
   color: #00008B;
 }
 
 #firstName {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.683em;
   color: #00008B;
 }
 
 #lastName {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.683em;
   color: #00008B;
 }
 #email {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.683em;
   color: #00008B;
 }
 
 #phone {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
+  font-size: 1.683em;
   color: #00008B;
 
+}
+#submit {
+  font-size: 1.3em;
 }
 img {
   position: relative;
@@ -65,36 +78,42 @@ img {
 
 @media screen and (min-width: 768px) {
 #title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
-  font-size: 2.618em;
+  font-size: 4em;
   padding-bottom: 15px;
   color: #00008B;
 }
 #purpose {
+  font-size: 1.618em;
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   color: #00008B;
 }
 #firstName {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
   color: #00008B;
 }
 #lastName {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
   color: #00008B;
 }
 #email {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
   color: #00008B;
 }
 #phone {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
@@ -103,6 +122,7 @@ img {
 #submit {
   bottom: 300px;
   font-size: 1.618em;
+  font-family: 'Playfair Display', serif;
 }
 img {
   position: relative;
