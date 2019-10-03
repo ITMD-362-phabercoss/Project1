@@ -1,17 +1,17 @@
 /* Attempted to use Golden section ratio */
 body {
-line-height: 1.625em;
-padding: 27.625px;
-color: white;
-height: 100%;
-background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
-text-align: center;
-font-family: 'Heebo', sans-serif;
+  line-height: 1.625em;
+  padding: 27.625px;
+  color: white;
+  height: 100%;
+  background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
 }
 
 img {
-bottom: 500px;
-max-width: 100%;
+  bottom: 500px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,28 +21,38 @@ label {
   font-family: 'Heebo', sans-serif;
   font-size: 1.063em;
 }
+#title {
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 1.7em;
+}
+#purpose {
+  position: relative;
+  padding-bottom: 15px;
+}
+
 #firstName {
-position: relative;
-padding-bottom: 15px;
+  position: relative;
+  padding-bottom: 15px;
 }
 
 #lastName {
   position: relative;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 #email {
   position: relative;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 #phone {
   position: relative;
-padding-bottom: 15px;
+  padding-bottom: 15px;
 
 }
 img {
-position: relative;
-top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 }
@@ -51,6 +61,11 @@ top: 10px;
 #title {
   position: relative;
   font-size: 2.618em;
+  padding-bottom: 15px;
+}
+#purpose {
+  position: relative;
+  padding-bottom: 15px;
 }
 #firstName {
   position: relative;
@@ -58,9 +73,9 @@ top: 10px;
   font-size: 1.618em;
 }
 #lastName {
-position: relative;
-padding-bottom: 15px;
-font-size: 1.618em;
+  position: relative;
+  padding-bottom: 15px;
+  font-size: 1.618em;
 }
 #email {
   position: relative;
@@ -80,7 +95,7 @@ img {
   position: relative;
   height: auto;
   width: auto;
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 570px;
+  max-height: 570px;
   top: 15px;
 }
