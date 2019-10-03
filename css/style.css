@@ -2,11 +2,10 @@
 body {
   line-height: 1.625em;
   padding: 27.625px;
-  color: white;
+  /*color: white; */
   height: 100%;
   background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
   text-align: center;
-  font-family: 'Heebo', sans-serif;
 }
 
 img {
@@ -22,32 +21,39 @@ label {
   font-size: 1.063em;
 }
 #title {
+  font-family: 'Playfair Display', serif;
   position: relative;
   padding-bottom: 15px;
   font-size: 1.7em;
+  color: #00008B;
 }
 #purpose {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 }
 
 #firstName {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 }
 
 #lastName {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 }
 #email {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 }
 
 #phone {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 
 }
 img {
@@ -59,33 +65,40 @@ img {
 
 @media screen and (min-width: 768px) {
 #title {
+  font-family: 'Playfair Display', serif;
   position: relative;
   font-size: 2.618em;
   padding-bottom: 15px;
+  color: #00008B;
 }
 #purpose {
   position: relative;
   padding-bottom: 15px;
+  color: #00008B;
 }
 #firstName {
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
+  color: #00008B;
 }
 #lastName {
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
+  color: #00008B;
 }
 #email {
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
+  color: #00008B;
 }
 #phone {
   position: relative;
   padding-bottom: 15px;
   font-size: 1.618em;
+  color: #00008B;
 }
 #submit {
   bottom: 300px;
