@@ -1,7 +1,9 @@
-/* Attempted to use Golden section ratio */
+/* Golden section
+
+*/
 body {
-  line-height: 1.625em;
-  padding: 27.625px;
+  line-height: 1.618em /* 27.506px */;
+  padding: 1.618em /*27.625px */;
   color: white;
   height: 100%;
   background: linear-gradient(0.25turn, #d60000, #eb3, #00d636);
@@ -9,127 +11,135 @@ body {
 }
 
 img {
-  bottom: 500px;
+  bottom: 29.03em /* 493.513px */;
   max-width: 100%;
 }
 
 @media screen and (min-width: 300px) {
 
 label {
-  line-height: 1.625em;
+  line-height: 1.618em /* 27.506px */;
   font-family: 'Heebo', sans-serif;
-  font-size: 1.063em;
+  font-size: 1em /* 17px */;
+  display: block;
 }
 #title {
   font-family: 'Oswald', sans-serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 3em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 2.618em /* 44.505px */;
   color: #00008B;
 }
 #purpose {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.2em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 }
-
+input {
+    width : 90%;
+  	border-radius: .5em;
+  }
+}
 #firstName {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.683em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 }
 
 #lastName {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.683em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 }
 #email {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.683em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 }
 
 #phone {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.683em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 
 }
 #submit {
-  font-size: 1.3em;
+  font-size: 1.618em /* 27.506px */;
 }
 img {
   position: relative;
-  top: 10px;
+  top: 0.618em /* 10.507px */;
 }
 
 }
 
 @media screen and (min-width: 768px) {
+label {
+  text-align: center;
+  font-size: 1em;
+display: block;
+}
+input{
+  width : 90%;
+	border-radius: .5em;
+}
 #title {
   font-family: 'Oswald', sans-serif;
   position: relative;
-  font-size: 4em;
-  padding-bottom: 15px;
+  font-size: 4.236em /* 72.009px */;
+  padding-bottom: 1em /* 17px */;
   color: #00008B;
 }
 #purpose {
-  font-size: 1.618em;
+  font-size: 2.618em;
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 1em /* 17px */;
   color: #00008B;
 }
-#firstName {
+ input [type="text"] {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.618em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 0.618em /* 27.506px */;
   color: #00008B;
 }
-#lastName {
+ input [type="email"] {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.618em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
 }
-#email {
+ input [type="number"] {
   font-family: 'Playfair Display', serif;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 1.618em;
+  padding-bottom: 1em /* 17px */;
+  font-size: 1.618em /* 27.506px */;
   color: #00008B;
-}
-#phone {
-  font-family: 'Playfair Display', serif;
-  position: relative;
-  padding-bottom: 15px;
-  font-size: 1.618em;
-  color: #00008B;
+
 }
 #submit {
-  bottom: 300px;
-  font-size: 1.618em;
+  bottom: 17.942em /* 305.014px */;
+  font-size: 1.618em /* 27.506px */;
   font-family: 'Playfair Display', serif;
 }
 img {
 position: relative;
 height: auto;
 width: auto;
-max-width: 570px;
-max-height: 570px;
-top: 15px;
+max-width: 29.03em /* 493.513px */;
+max-height: 29.03em /* 493.513px */;
+top: 1em /* 17px */;
 }
 }
