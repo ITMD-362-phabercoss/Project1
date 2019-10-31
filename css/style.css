@@ -81,8 +81,6 @@ img {
   top: 0.618em /* 10.507px */;
 }
 
-}
-
 @media screen and (min-width: 768px) {
 label {
   text-align: center;
