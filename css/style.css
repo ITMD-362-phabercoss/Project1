@@ -26,8 +26,8 @@ label {
 #title {
   font-family: 'Oswald', Impact, "Courier New" ,sans-serif;
   position: relative;
-  padding-bottom: 1em /* 17px */;
-  font-size: 2.618em /* 44.505px */;
+  padding-bottom: 0.618em /* 10.507px */;
+  font-size: 4.236em /* 72.009px */;
   color: #00008B;
 }
 #purpose {
@@ -86,12 +86,12 @@ img {
 @media screen and (min-width: 768px) {
 label {
   text-align: center;
-  font-size: 1em;
+  font-size: 1em /* 17px */;
 display: block;
 }
 input{
   width : 90%;
-	border-radius: .5em;
+	border-radius: 0.618em /* 10.507px */;
 }
 #title {
   font-family: 'Oswald', Impact, "Courier New", sans-serif;
@@ -101,7 +101,7 @@ input{
   color: #00008B;
 }
 #purpose {
-  font-size: 2.618em;
+  font-size: 2.618em /* 44.505px */;
   font-family: 'Playfair Display', Impact, "Courier New", serif;
   position: relative;
   padding-bottom: 1em /* 17px */;
