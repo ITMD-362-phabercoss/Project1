@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
   <script src="js/script.js" async> </script>
-  <script src="js/validate.js" async> </script>
+<!-- <script src="js/validate.js" async> </script> -->
 </head>
 
 <body>
@@ -20,13 +20,13 @@
     <h2> Sign up for our newsletter to learn more interesting and educational facts
       about animals and the environment they inhabit! </h2>
   </div>
-  <form method="POST" onsubmit="return emailValidate()" autocomplete="on" action="#">
+  <form method="POST" autocomplete="on" action="#" id="form">
   <fieldset>
   <div id = "firstName">
     <label> Your Full Name: <input type="text" name="name_field"> </label>
   </div>
   <div id = "email">
-    <label> Email Address: <input type="email" name="email"> </label>
+    <label> Email Address: <input type="email" name="email" id="user_email"> </label>
   </div>
   <div id = "phone">
     <label> Phone Number: <input type="number" name="phone_field"> </label>
